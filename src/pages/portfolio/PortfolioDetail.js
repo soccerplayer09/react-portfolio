@@ -11,18 +11,7 @@ export const PortfolioDetail = () => {
   if (!portfolioItem) {
     return <h1>Portfolio item not found</h1>;
   }
-
-//   return (
-//     <div className="portfolio-detail">
-//       <h1>{portfolioItem.title}</h1>
-//       <img src={portfolioItem.img} alt={portfolioItem.title} />
-//       <p>{portfolioItem.description}</p>
-//       <a href={portfolioItem.link} target="_blank" rel="noopener noreferrer">
-//         View Project
-//       </a>
-//     </div>
-//   );
-return (
+  return (
     <HelmetProvider>
       <Container className="About-header">
         <Helmet>
