@@ -1,144 +1,97 @@
-const logotext = "JOHN";
+const logotext = "dgk";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Donggoo Kim",
+    description: "I’m Donggoo Kim software engineer _ Blockchain expert,currently working in Seoul",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "Donggoo Kim",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Software Engineer",
+        second: "Backend Engineering",
+        third: "Blockchain Expert",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    // description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    your_img_url: "https://dgk-share.s3.ap-northeast-2.amazonaws.com/images/profile.jpg",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Donggoo Kim",
+    aboutme: "Joined university with economics major, decided to be a software engineer after being inspired by Uber and Airbnb during US trip in 2019. Currently persuing master degree in computer science. Interested in backend engineering and blockchain especially bitcoin protocol and proof of reserve of non-custodial wallet.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Software Engineer",
+        where: "Boeing Korea",
+        date: "2021 ~ Present",
     },
 ];
 
-const skills = [{
+const skills = [
+    {
+        name: "Typescript",
+        value: 80,
+    },
+    {
+        name: "Nextjs",
+        value: 90,
+    },
+    {
+        name: "Nestjs",
+        value: 90,
+    },
+    {
         name: "Python",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "FastAPI",
         value: 85,
     },
     {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
+        name: "Kafka",
         value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Backend",
+        description: "TBD",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Blockchain",
+        description: "TBD",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Security",
+        description: "TBD",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        id: "por",
+        title: "Proof of Reserve Platform for Central Exchange",
+        img: "https://dgk-share.s3.ap-northeast-2.amazonaws.com/images/por.png",
+        demoVideo: "https://dgk-share.s3.ap-northeast-2.amazonaws.com/videos/por.mp4",
+        diagram: "https://dgk-share.s3.ap-northeast-2.amazonaws.com/images/por_diagram.png",
+        description: "Proof of Reserve Platform for Central Exchange",
+        description_detail: "Proof of Reserve Platform for Central Exchange",
+        link: "#/portfolio/por",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        id: "bitcoin_nofify",
+        title: "Bitcoin Transaction Notification Service",
+        img: "https://dgk-share.s3.ap-northeast-2.amazonaws.com/images/trx_notify_service.png",
+        demoVideo: "https://dgk-share.s3.ap-northeast-2.amazonaws.com/videos/bitcoin_trx_notify.mp4",
+        description: "Wallet Neutral Bitcoin Transaction Notification Service",
+        description_detail: "Wallet Neutral Bitcoin Transaction Notification Service",
+        link: "#/portfolio/bitcoin_nofify",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "dkim3055@gatech.edu",
+    // YOUR_FONE: "(999)999-9999",
+    // description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +100,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    // github: "https://github.com",
+    // facebook: "https://facebook.com",
+    linkedin: "https://www.linkedin.com/in/donggookim96/",
+    // twitter: "https://twitter.com",
 };
 export {
     meta,
