@@ -82,6 +82,7 @@ const dataportfolio = [{
         title: "Bitcoin Transaction Notification Service",
         img: "https://dgk-share.s3.ap-northeast-2.amazonaws.com/images/trx_notify_service.png",
         demoVideo: "https://dgk-share.s3.ap-northeast-2.amazonaws.com/videos/bitcoin_trx_notify.mp4",
+        diagram: "https://dgk-share.s3.ap-northeast-2.amazonaws.com/images/bitcoin_notify.png",
         description: "Wallet Neutral Bitcoin Transaction Notification Service",
         description_detail: "Wallet Neutral Bitcoin Transaction Notification Service",
         link: "#/portfolio/bitcoin_nofify",
