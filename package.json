@@ -24,6 +24,7 @@
         "predeploy": "yarn build && cp build/index.html build/404.html",
         "deploy": "gh-pages -d build"
     },
+    "homepage": "https://soccerplayer09.github.io/react-portfolio/",
     "eslintConfig": {
         "extends": [
             "react-app",
