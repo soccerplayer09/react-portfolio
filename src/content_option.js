@@ -17,7 +17,7 @@ const introdata = {
 
 const dataabout = {
     title: "Donggoo Kim",
-    aboutme: "Joined university with economics major, decided to be a software engineer after being inspired by Uber and Airbnb during US trip in 2019. Currently persuing master degree in computer science. Interested in backend engineering and blockchain especially bitcoin protocol and proof of reserve of non-custodial wallet.",
+    aboutme: "I began my academic journey with an economics major, but after a trip to the US in 2019, I was inspired by the impact of tech companies like Uber and Airbnb. This sparked my decision to pivot and pursue a career in software engineering. I’m currently working toward a master’s degree in computer science and am deeply interested in backend engineering and blockchain technology, particularly the Bitcoin protocol and proof of reserve for non-custodial wallets.",
 };
 const worktimeline = [{
         jobtitle: "Software Engineer",
@@ -29,27 +29,23 @@ const worktimeline = [{
 const skills = [
     {
         name: "Typescript",
-        value: 80,
-    },
-    {
-        name: "Nextjs",
-        value: 90,
+        value: 70,
     },
     {
         name: "Nestjs",
-        value: 90,
+        value: 70,
     },
     {
         name: "Python",
-        value: 90,
+        value: 70,
     },
     {
         name: "FastAPI",
-        value: 85,
+        value: 70,
     },
     {
         name: "Kafka",
-        value: 60,
+        value: 40,
     },
 ];
 
