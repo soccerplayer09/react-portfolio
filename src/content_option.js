@@ -83,6 +83,16 @@ const dataportfolio = [{
         description_detail: "Wallet Neutral Bitcoin Transaction Notification Service",
         link: "#/portfolio/bitcoin_nofify",
     },
+    {
+        id: "bitcoin_explorer",
+        title: "Bitcoin Transaction Explorer",
+        img: "https://dgk-share.s3.ap-northeast-2.amazonaws.com/images/bitcoin_explorer.png",
+        demoVideo: "https://dgk-share.s3.ap-northeast-2.amazonaws.com/videos/bitcoin_explorer.mp4",
+        diagram: "https://dgk-share.s3.ap-northeast-2.amazonaws.com/images/bitcoin_explorer_diagram.png",
+        description: "Custom Bitcoin Transaction Explorer",
+        description_detail: "Custom Bitcoin Transaction Explorer integrated with cloud bitcoin node where we can add custom functionality such as recurrsive tracking utxo flow etc.",
+        link: "#/portfolio/bitcoin_explorer",
+    },
 ];
 
 const contactConfig = {
